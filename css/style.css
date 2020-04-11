@@ -46,14 +46,13 @@ ul li a{
 }
 .banner{
   height: 450px;
-  margin-bottom: 55px;
   position: relative;
 }
 .box{
   width: 480px;
-  padding: 30px 48px 30px 48px;
+  padding: 30px 48px 45px 48px;
   position: absolute;
-  top: 180px;
+  top: 90px;
   background: rgba(0,0,0,0.6);
 }
 .box p{
