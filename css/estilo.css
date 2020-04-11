@@ -1,47 +1,47 @@
-body{
+body {
   font-size: 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #444;
 }
 
-.container{
+.container {
   max-width: 1128px;
 }
 
-a{
+a {
   color: #00ccff;
   text-decoration: none;
   font-size: 12px;
 }
 
-p{
+p {
   font-size: 20px;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-.cabecalho{
+.cabecalho {
   width: 100%;
   height: 48px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.logo{
+.logo {
   float: left;
 }
 
-.menu{
+.menu {
   float: right;
 }
 
-li{
+li {
   display: inline;
   font-size: 14px;
   margin-left: 24px;
@@ -49,18 +49,18 @@ li{
   list-style: none;
 }
 
-li a{
+li a {
   font-size: 20px;
   color: #999;
 }
 
-.banner{
+.banner {
   height: 450px;
   margin-bottom: 55px;
   position: relative;
 }
 
-.caixa{
+.caixa {
   width: 480px;
   padding: 30px 48px 30px 48px;
   position: absolute;
@@ -73,7 +73,7 @@ li a{
   text-decoration: #fff;
 }
 
-h1{
+h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 48px;
@@ -81,7 +81,7 @@ h1{
   text-decoration: #fff;
 }
 
-.rodape{
+.rodape {
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -89,14 +89,14 @@ h1{
   font-size: 30px;
 }
 
-.rodape p{
+.rodape p {
   margin-bottom: 0;
 }
 
-.rodape small{
+.rodape small {
   font-size: 18px;
 }
 
-.footer{
+.footer {
   font-size: 15px;
 }
