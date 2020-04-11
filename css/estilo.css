@@ -60,3 +60,43 @@ li a{
   position: relative;
 }
 
+.caixa{
+  width: 480px;
+  padding: 30px 48px 30px 48px;
+  position: absolute;
+  top: 180px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.caixa p {
+  font-size: 20px;
+  text-decoration: #fff;
+}
+
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 200;
+  text-decoration: #fff;
+}
+
+.rodape{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+  font-size: 30px;
+}
+
+.rodape p{
+  margin-bottom: 0;
+}
+
+.rodape small{
+  font-size: 18px;
+}
+
+.footer{
+  font-size: 15px;
+}
