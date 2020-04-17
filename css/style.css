@@ -60,6 +60,7 @@ ul li a{
   position: absolute;
   top: 90px;
   background: rgba(0,0,0,0.6);
+  height: 200px;
 }
 .box p{
   font-size: 20px;
