@@ -52,6 +52,7 @@ ul li a{
 .banner{
   height: 450px;
   position: relative;
+  margin-bottom: 55px;
 }
 .box{
   width: 480px;
