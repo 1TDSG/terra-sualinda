@@ -1,6 +1,11 @@
 body{
   font-size: 12px;
-  font-family: Helvetica 'Neue' Helvetica Arial sans-serif;
+  /*
+    Para cada fonte você deve separar por virgula!
+    E se o nome da fonte for composto or dois nomes deve ser colocada entre
+    aspas duplas ou simples.
+  */
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #444;
 }
 #container{
