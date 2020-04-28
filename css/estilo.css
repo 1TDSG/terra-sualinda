@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/*●Faça o apontamento do arquivo css no HTML.*/
+/*
+●Para o body determine os seguintes estilos:
+| Tamanho do texto em 12px .
+| Familia da fonte -Helvetica Neue, Helvetica, Arial ou sem serifa.
+| Cor do texto #444●Para a classe container determine os seguintes estilos:
+| Largura máxima de 1128px.
+*/
+body{
+  font-size: 12px;
+  font-family: 'Helvetica Neue', 'Helvetica','Arial', sans-serif;
+}
+/*
+●Para todos os elementos <a> determine os seguintes estilos:
+| Cordo texto #00ccff.
+| Retire o estilo de hyperlink de todos os elementos.
+| Tamanho do texto em 12px .
+*/
+a{
+  color:#00ccff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/*
+●Para todos os parágrafos determine os seguintes estilos:
+| Tamanho do texto 20px.
+*/
+p{
+  font-size: 20px;
+}
+/*
+●Para todos os elementos <a> determine os seguintes estilos:
+| Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
+*/
+a:HOVER{
+  text-decoration: underline;
+}
+/*
+●Para todas as imagens determine os seguintes estilos:
+|Largura máxima de 100%;*/
+img{
+  max-width: 100%;
+}
+/*●Para a classe cabecalho determine os seguintes estilos:
+| Largura de 100%.
+| Altura de 48px.
+|Margem do topo de 40px.
+| Margem do rodapé de 40px.*/
+.cabecalho{
+  width: 100%;
+  height: 48px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*Para a classe logo determine os seguintes estilos:
+| Faça o elemento flutuar para a esquerda.*/
+.logo{
+  float: left;
+}
+/*Para a classe menu determine os seguintes estilos:
+| Faça o elemento flutuar para a direita.*/
+.menu{
+  float: right;
+}
+/*Para ositems da lista determine os seguintes estilos:
+| Faça com que a lista flutue para a direita.
+| Coloque os itens em linha.
+| Tamanho do texto 14px.
+| Margem esquerda 24px;
+| Margem topo 12px;
+| Retire o estilo de lista.*/
+.menu ul li{
+  float: right;
+  display: inline;
+  font-size: 14px;
+  margin-left: 24px;
+  margin-top: 12px;
+  list-style: none;
+}
+/*Para os hyperlinks dos itens da lista determine os seguintes estilos.
+| coloque a fonte do texto em 20px.
+| coloque a cor do texto como #999.
+*/
+.menu ul li a{
+  font-size: 20px;
+  color: #999;
+}
+/*Para a classe banner determine os seguintes estilos:
+| Altura 450px.
+| Margem rodapé 55px.
+| Posição relativa.
+*/
+.banner{
+  height: 450px;
+  margin-bottom: 55px;
+  position: relative;
+}
+/*Para a classe box determine os seguintes estilos:
+| Largura 480px.
+| Preenchimento superior e inferior de 30px e direito e esquerdo de 48px.
+| Posição absoluta.
+| Posiçãotop180px;
+| Fundo com cor rgba(0,0,0,0.6), utilize o sistema de cores numérico RGBA.
+*/
+.box{
+  width: 480px;
+  padding: 30px 48px;
+  position: absolute;
+  top:55px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/*Para os parágrafos descendentes de box determine os seguintes estilos:
+| Tamanho do texto em 20px.
+| Cor do texto #fff.
+*/
+.box p{
+  font-size: 20px;
+  color: #fff;
+}
+/*Para o elemento <h1> determine os seguintes estilos:
+| Margem topo 0.
+| Margem rodapé 0.
+| Tamanho do texto 48px.
+| Espessura da fonte de 200.
+| Cor do texto #fff.
+*/
+.box h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 200;
+  color: #fff;
+}
+/*Para a classe rodape determine os seguintes estilos:
+| Largura 100%.
+| Margem topo 30px.
+| Margem rodapé 30px.
+| Faça o elemento flutuar para a esquerda.
+| Tamanho do texto em 30px;
+*/
+.rodape{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+  font-size: 30px;
+}
+/*Para os parágrafos descendentes da classe rodape determine os seguintes estilos:
+| Margem rodapé 0.
+*/
+.rodape p{
+  margin: 0;
+}
+/*Para os smalltag descendentes da classe rodape determine os seguintes estilos:
+| Tamanho do texto em 18px.
+*/
+.rodape small{
+  font-size: 18px;
+}
